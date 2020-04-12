@@ -27,7 +27,7 @@ print("########### 3D ###########")
 # ax.scatter(x[:,0],x[:,1],x[:,2], c=y)
 #plt.show()
 
-#####np.meshgrid
+##### plot_surface #########
 # f = lambda x,y:np.sin(x) + np.cos(x+y)
 # plt.figure()
 # X = np.linspace(1,5,100)
