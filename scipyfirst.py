@@ -13,6 +13,7 @@ face3 = face2[face2>250]
 face3 = face2
 face3[face3>150] = 255
 plt.imshow(face2,cmap=plt.cm.gray)
-plt.show()
-plt.imshow(face3,cmap=plt.cm.gray)
+
+plt.figure()
+plt.hist(face3)
 plt.show()
